@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
+
+
+::selection {
+
+  color: none;
+
+  background: none;
+
+}
+
+/* For Mozilla Firefox */
+
+::-moz-selection {
+
+  color: none;
+
+  background: none;
+
+}
+
+
+
+body{
+    background-color: #352d2d61;
+}
+
+.mic{
+  height: 48px ; 
+  width: 48px;
+  margin-top: 45px;
+}
+
+.info{
+  height: 20px ; 
+  width: 20px;
+  margin-top: 160px;
+  float: right;
+}
+.info:hover{
+ fill:#25a5f5;
+}
+
+.say{
+  float: left;
+  height: 40px ; 
+  width: 40px;
+}
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes shadow-pulse-big
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 70px rgba(0, 0, 0, 0);
+  }
+}
+
+.on
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: -65px; 
+  width: 130px;
+  height: 130px;
+  font: 13px/130px 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  text-align: center;
+  background: rgba(4, 157, 184, 0.6);
+  border-radius: 50%;
+/*  animation: shadow-pulse 2s infinite; */
+  animation: shadow-pulse 1s 1; 
+
+}
+
+.off
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: -65px; 
+  width: 130px;
+  height: 130px;
+  font: 13px/130px 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  text-align: center;
+  background: rgba(117, 117, 117, 0.6);
+  border-radius: 50%;
+}

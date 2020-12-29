@@ -1,0 +1,8 @@
+Library listing
+
+pip install gTTS # Google Text-to-Speech Library
+pip install clipboard # OS clipboard Library
+XX #pip install keyboard  # OS keyboard Library         
+pip install pynput     # OS keyboard Library
+pip install playsound
+ 
